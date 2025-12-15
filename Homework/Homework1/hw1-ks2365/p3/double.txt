@@ -1,0 +1,12 @@
+Found one for forgery.
+The panoramic eyebrow illustrates warden.
+The filthy surprise polishes integration.
+
+For two message not in the same box, if there is one message, chance is 200/200. If there
+are two messages, chance is 199/200, because it cannot take the previous box. If there are
+three messages, chance is 198/200. P(n) = 200/200 * 199/200 * 198/200 * 197/200 ...
+The probability that two messages cannot be in the same box have the formula:
+P(n) = 1 - 200! / (365^n * (365 - n)!)
+When 2^d, where d = 15, have the probability of 0.45585310230172593, which is just less than 0.5
+fits our consumption.
+

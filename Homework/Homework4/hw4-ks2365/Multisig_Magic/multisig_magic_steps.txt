@@ -1,0 +1,4 @@
+1. Deploy contract on Remix 
+2. set the initial wallet to my wallet, set _required and _daylimit to any number
+3. use the execute to transfer some money to myself, value can be any, and data be 0x..
+4. any money out of 0.005 will be done

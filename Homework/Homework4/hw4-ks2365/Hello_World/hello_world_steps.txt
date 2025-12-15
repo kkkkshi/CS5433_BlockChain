@@ -1,0 +1,3 @@
+1. Deploy contract using Remix
+2. Put my netid and ownerflag as parameter to run function helloworld
+

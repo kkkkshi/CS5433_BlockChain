@@ -1,0 +1,8 @@
+The corresponding relationship is: 
+
+1GcZjZnfQUCs9L9RoAFLdd8YET2WQWrDAz (CoinCloud)      18RwKzXtL5YGvFwa9BHrPRvqXLkdYWsGfp       3
+1MVXpgczazLvbtS8Nfp9v3Qpj4d8pUNXQM (Grams Helix)    1MTbp4bFftessrbTTpM5SC5Ap1iKaMHrM7       1
+1KGhtebk4Nr2zZSn2NaFepeNF6KyjxpPJZ (PenguinMixer)   1BCaztysy2paguXjuC8c652vckNMks69ce       4
+135g5Es7VXvbaAkwzguv7q7xaSSTifav5H (Bitcoin Fog)    13MUZ1Qk36LqExdcSRDZCxNRP1pcz1b5mT       2
+
+I deanonymize the mixer by "output = input - fee" and its time interval is about 2-3 hours. 

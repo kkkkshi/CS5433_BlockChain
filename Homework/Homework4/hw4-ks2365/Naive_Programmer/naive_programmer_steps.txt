@@ -1,0 +1,4 @@
+1. Deploy contract on Remix 
+2. click voteForChoice1 and voteForChoice2, alice has one vote and bob has 0
+3. give getVoteCommitment any string start at 2, "2xxx" will be fine and get a string "0x....", feed "2xxx" and "0x..." to reveal Vote twice, which means vote bob twice
+4. then get winner

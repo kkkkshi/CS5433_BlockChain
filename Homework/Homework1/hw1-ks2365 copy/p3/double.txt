@@ -1,0 +1,6 @@
+Since k = 200, we would like to find 2^d have the probability less than 0.5.
+E[X_ij] = 1/(2^d) for each message in any box
+We could have C(k 2)  = k(k-1)/2 different pairs of messages
+E[x] = 1/(2^d) * k(k-1)/2  < 0.5
+2^d > 40000
+where d have to be at least 16 to fit the probability
