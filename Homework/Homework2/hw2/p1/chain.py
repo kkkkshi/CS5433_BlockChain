@@ -1,7 +1,3 @@
-import os
-import config
-import blockchain
-from blockchain.util import encode_as_str
 import transaction, persistent
 
 class Blockchain(persistent.Persistent):
@@ -126,6 +122,7 @@ class Blockchain(persistent.Persistent):
 
         block_hashes_to_total_weights = self.get_all_block_weights()
         heaviest_block = None
+        heaviest_weight = 0
         for block_hash in block_hashes_to_total_weights:
             block = self.blocks[block_hash]
             weight_in_block = block_hashes_to_total_weights[block_hash]

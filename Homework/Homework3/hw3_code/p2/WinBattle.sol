@@ -64,9 +64,8 @@ contract WinBattle {
     }
 
     function startBattle() public {
-        for (uint256 i = 0; i < 50; i++) {
-            fight();
-        }
+        // blockhash is fixed within a tx, so dice never changes here; one call is enough
+        fight();
     }
 
 }

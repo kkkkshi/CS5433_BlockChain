@@ -1,17 +1,16 @@
 import java.util.Set;
 import java.util.HashSet;
 
-public class MaliciousNode implements Node {
+/* malicious node that does nothing: never forwards, ignores all input */
+public class MalDoNothing implements Node {
 
-    public MaliciousNode(double p_graph, double p_malicious, double p_txDistribution, int numRounds) {
+    public MalDoNothing(double p_graph, double p_malicious, double p_txDistribution, int numRounds) {
     }
 
     public void setFollowees(boolean[] followees) {
-        return;
     }
 
     public void setPendingTransaction(Set<Transaction> pendingTransactions) {
-        return;
     }
 
     public Set<Transaction> sendToFollowers() {
@@ -19,6 +18,5 @@ public class MaliciousNode implements Node {
     }
 
     public void receiveFromFollowees(Set<Candidate> candidates) {
-        return;
     }
 }

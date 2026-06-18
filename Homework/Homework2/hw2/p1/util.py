@@ -1,4 +1,3 @@
-import random
 import hashlib
 
 def sha256_2_string(string_to_hash):

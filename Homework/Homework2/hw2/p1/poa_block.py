@@ -1,5 +1,4 @@
 
-import blockchain
 from blockchain.block import Block
 import config
 import binascii

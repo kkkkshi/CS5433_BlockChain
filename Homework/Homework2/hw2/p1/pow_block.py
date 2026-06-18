@@ -1,6 +1,5 @@
 import blockchain
 from blockchain.block import Block
-from blockchain.util import nonempty_intersection
 
 class PoWBlock(Block):
     """ Extends Block, adding proof-of-work primitives. """

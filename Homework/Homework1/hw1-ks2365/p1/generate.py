@@ -5,7 +5,7 @@ import secrets
 
 # convert a hash to binary
 def hash_to_bin(s):
-    return bin(int(hashlib.sha256(s).hexdigest(), base=16)).lstrip("0b").zfill(256)
+    return bin(int(hashlib.sha256(s).hexdigest(), base=16))[2:].zfill(256)
 
 
 # generate the watermark from a netid
